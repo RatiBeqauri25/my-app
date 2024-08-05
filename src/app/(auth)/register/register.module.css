@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.contentWrapper {
+    display: flex;
+    background-color: var(--bgSoft);
+    padding: 50px;
+    border-radius: 4px;
+    width: 500px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.form > input {
+    padding: 20px;
+    border: none;
+    background-color: var(--bg);
+    border-radius: 5px;
+    color: var(--textColor);
+    outline: none;
+}
+
+.button {
+    background-color: var(--btn);
+    border: none;
+    color: var(--text);
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
